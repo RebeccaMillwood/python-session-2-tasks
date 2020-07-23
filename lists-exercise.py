@@ -40,14 +40,27 @@
 
 # Question 3:
 
-name1 = input("Enter your name ")
-name2 = input("Enter another name ")
-name3 = input("Enter a final name ")
+# name1 = input("Enter your name: ")
+# name2 = input("Enter another name: ")
+# name3 = input("Enter a final name: ")
 
-list_of_names = [
-    name1,
-    name2,
-    name3,
-]
+# list_of_names = [
+#     name1,
+#     name2,
+#     name3,
+# ]
 
-print(list_of_names)
+# print(list_of_names)
+
+# Question 4
+
+string = input("enter a short sentence: ")
+sentence = []
+sentence = string.split()
+print(sentence)
+
+characterlist = list(string)
+print(characterlist)
+
+print(f"{len(sentence)} {sentence}")
+print(f"{len(characterlist)} {characterlist}")
