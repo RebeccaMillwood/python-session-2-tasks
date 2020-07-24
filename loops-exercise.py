@@ -48,18 +48,18 @@ print(total)
 
 # Question 2
 
-# mailing_list = [
-#     ["Roary", "roary@moth.catchers"],
-#     ["Remus", "remus@kapers.dog"],
-#     ["Prince Thomas of Whitepaw", "hrh.thomas@royalty.wp"], 
-#     ["Biscuit", "biscuit@whippies.park"],
-#     ["Rory", "rory@whippies.park"],
-# ]
+mailing_list = [
+    ["Roary", "roary@moth.catchers"],
+    ["Remus", "remus@kapers.dog"],
+    ["Prince Thomas of Whitepaw", "hrh.thomas@royalty.wp"], 
+    ["Biscuit", "biscuit@whippies.park"],
+    ["Rory", "rory@whippies.park"],
+]
 
 # print(mailing_list)
 
-# for details in mailing_list:
-#     print(f"{details[0]}: {details[1]}")
+for details in mailing_list:
+    print(f"{details[0]}: {details[1]}")
 
 
 # Question 3
@@ -67,38 +67,38 @@ print(total)
 # then use a for loop to print the list
 
 
-# names = []
-# count = 0
-# while count < 3:
-#     name = input("What is your name? ")
-#     names.append(name)
-#     count += 1
-#     print()
+names = []
+count = 0
+while count < 3:
+    name = input("What is your name? ")
+    names.append(name)
+    count += 1
+    print()
 
-# for name in names:
-#     print(name)
+for name in names:
+    print(name)
 
 
 # Question 4
 
-# groceries = [
-#     ["Baby Spinach", 2.78],
-#     ["Hot Chocolate", 3.70],
-#     ["Crackers", 2.10],
-#     ["Bacon", 9.00],
-#     ["Carrots", 0.56],
-#     ["Oranges", 3.08]
-# ]
+groceries = [
+    ["Baby Spinach", 2.78],
+    ["Hot Chocolate", 3.70],
+    ["Crackers", 2.10],
+    ["Bacon", 9.00],
+    ["Carrots", 0.56],
+    ["Oranges", 3.08]
+]
 
-# total = 0
+total = 0
 
-# for item in groceries:
-#     quantity = input(f"How many {item[0]} did you buy? ")
-#     item[1] = item[1] * int(quantity)
-#     total += item[1]
+for item in groceries:
+    quantity = input(f"How many {item[0]} did you buy? ")
+    item[1] = item[1] * int(quantity)
+    total += item[1]
 
-# print(f"====Izzy's Food Emporium====")
-# for item in groceries:
-#     print(f"{item[0]:<20} ${item[1]:.2f}")
-# print(f"${total:>25.2f}")
-# print(f"============================")
+print(f"====Izzy's Food Emporium====")
+for item in groceries:
+    print(f"{item[0]:<20} ${item[1]:.2f}")
+print(f"${total:>25.2f}")
+print(f"============================")
